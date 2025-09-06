@@ -1,11 +1,11 @@
-# 🚀 CAN BUS Communication in STM32 for Race Car
+# 🚗 CAN BUS Communication in STM32 for Race Car
 
-![General schematic](./CAN%20FD%20diagram.png)
+![Project Diagram](./CAN%20FD%20diagram.png)
 
-## 📌 Indicaciones
+## 📌 Key Points
 
-- Este proyecto está desarrollado en **VHDL** para FPGA.  
-- Implementa un **filtro digital** como parte de un sistema embebido.  
-- El código está organizado en módulos para facilitar la reutilización.  
-- Incluye un **testbench** para validar el funcionamiento.  
-- Compatible con herramientas como **Vivado**.  
+- Implements **CAN FD** protocol (higher bandwidth and speed compared to Classical CAN).  
+- Data transmitted are **floating-point values** from sensors.  
+- Uses **STM32H753** boards as both transmitter and receiver.  
+- Communication speed configured at **500 kbps**.  
+- Designed for reliable and efficient data exchange in embedded systems.  
