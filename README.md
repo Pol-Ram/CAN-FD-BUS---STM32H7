@@ -1,6 +1,6 @@
 # 🚀 CAN BUS Communication in STM32 for Race Car
 
-![General schematic](./CAN FD diagram.png)
+![General schematic](./CAN%20FD%20diagram.png)
 
 ## 📌 Indicaciones
 
